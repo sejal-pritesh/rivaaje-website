@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Rivaaje&#x2019;</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  .page-header {
+    padding: 120px 0 60px;
+    text-align: center;
+    background: linear-gradient(135deg, var(--blush-lighter), var(--blush-light), var(--blush-pink));
+  }
+  .page-header h1 {
+    font-family: var(--font-serif);
+    font-size: 42px;
+    font-weight: 400;
+    color: var(--text-dark);
+    letter-spacing: 5px;
+  }
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+  .about-content h3 {
+    font-family: var(--font-serif);
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  .about-content p {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.9;
+    color: var(--text-medium);
+    margin-bottom: 25px;
+  }
+  .about-highlight {
+    background: var(--blush-lighter);
+    border-left: 3px solid var(--rose-gold);
+    padding: 25px 30px;
+    margin: 40px 0;
+    border-radius: 0 8px 8px 0;
+  }
+  .about-highlight p {
+    font-style: italic;
+    margin-bottom: 0;
+  }
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+  }
+  .value-card {
+    text-align: center;
+    padding: 30px 20px;
+    background: var(--blush-lighter);
+    border-radius: 8px;
+  }
+  .value-icon {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .value-card h4 {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+  }
+  .value-card p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .founder-section {
+    text-align: center;
+    padding: 60px 0;
+    background: var(--white);
+  }
+  .founder-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--blush-pink), var(--blush-dark));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0 auto 20px;
+    border: 3px solid var(--rose-gold);
+  }
+  .founder-name {
+    font-family: var(--font-script);
+    font-size: 32px;
+    color: var(--rose-gold-dark);
+  }
+  .founder-title {
+    font-family: var(--font-sans);
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-top: 5px;
+  }
+  /* Darker text for readability */
+  .page-header h1 { color: #120505; }
+  .about-content h3 { color: #120505; }
+  .about-content p { color: #1a0a0a; }
+  .about-highlight p { color: #1a0a0a; }
+  .value-card h4 { color: #120505; }
+  .value-card p { color: #2a1010; }
+  .section-subtitle { color: #2a1010; }
+  .founder-title { color: #2a1010; }
+  .footer-desc, .footer-col ul li { color: rgba(255,255,255,0.85); }
+  .footer-col ul li a { color: rgba(255,255,255,0.85); }
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="../index.html" class="logo">
+      <span class="logo-lotus-wrap"><span class="mini-lotus"></span><span class="mini-infinity"></span></span>
+      <span class="logo-text">Rivaaje&#x2019;</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-icons">
+      <a href="#" class="icon-link" title="Search">🔍</a>
+      <a href="#" class="icon-link" title="Cart">🛒 <span class="cart-count">0</span></a>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Header -->
+<section class="page-header">
+  <div class="section-lotus-svg"><span class="sec-lotus"></span><span class="sec-infinity"></span></div>
+  <h1>Our Story</h1>
+  <div class="divider"></div>
+  <p class="section-subtitle">The Heart Behind Rivaaje&#x2019;</p>
+</section>
+
+<!-- About Content -->
+<div class="about-content">
+  <h3>Where It All Began</h3>
+  <p>
+    Rivaaje&#x2019; was born from a passion that has been nurtured for over 17 years. What started as a young
+    girl's love for fabrics, colors, and the art of stitching has grown into a brand that celebrates the
+    beautiful fusion of Indian tradition and modern Western aesthetics.
+  </p>
+  <p>
+    Based in the vibrant city of Ahmedabad, Gujarat, every piece at Rivaaje&#x2019; is a labor of love —
+    from hand-selecting the finest fabrics, to precise measurements, careful cutting, and meticulous
+    stitching. We believe in the A-to-Z approach: every step is handled with personal attention and care.
+  </p>
+
+  <div class="about-highlight">
+    <p>
+      "Fashion is not just about clothing — it's about honoring our roots while embracing the world.
+      Every stitch at Rivaaje&#x2019; carries the warmth of tradition and the spirit of modern elegance."
+    </p>
+  </div>
+
+  <h3>Our Philosophy</h3>
+  <p>
+    The name 'Rivaaje&#x2019; comes from 'Rivaj' — meaning tradition, custom, and heritage. We believe that
+    true style is timeless. Our designs bridge the gap between the rich Indian textile heritage and
+    contemporary global fashion, creating pieces that feel both familiar and fresh.
+  </p>
+  <p>
+    We specialize in women's wear and baby garments — from indo-western kurtis and modern chaniya
+    cholis to adorable baby outfits. Each piece is designed to make you feel confident, beautiful,
+    and connected to your roots.
+  </p>
+
+  <div class="values-grid">
+    <div class="value-card">
+      <div class="value-icon">🪡</div>
+      <h4>Handcrafted</h4>
+      <p>Every piece is stitched by hand with love and precision</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">🌿</div>
+      <h4>Quality First</h4>
+      <p>We select only the finest fabrics for our creations</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">✨</div>
+      <h4>Unique Designs</h4>
+      <p>Original designs you won't find anywhere else</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">💝</div>
+      <h4>Made with Love</h4>
+      <p>Passion and care go into every single creation</p>
+    </div>
+  </div>
+</div>
+
+<!-- Founder Section -->
+<section class="founder-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-lotus-svg"><span class="sec-lotus"></span><span class="sec-infinity"></span></div>
+      <h2>Meet the Founder</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="founder-img">👩‍🎨</div>
+    <p class="founder-name">Sejall</p>
+    <p class="founder-title">Founder & Creative Director</p>
+    <div style="max-width:600px; margin:20px auto 0;">
+      <p style="font-family: var(--font-serif); font-size:17px; color:var(--text-medium); line-height:1.8; font-weight:300;">
+        With 17 years of experience in fashion design, Sejall brings her vision of timeless Indian
+        fashion to life through Rivaaje&#x2019;. Her journey from a passionate young designer to a brand
+        founder is a testament to dedication, creativity, and an unwavering love for the craft.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3 class="footer-logo">Rivaaje&#x2019;</h3>
+        <p class="footer-tagline">Tradition, Tailored, Timelessly</p>
+        <p class="footer-desc">Handcrafted fashion from Ahmedabad — blending Indian heritage with modern elegance.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="shop.html">Women's Wear</a></li>
+          <li><a href="shop.html">Baby Collection</a></li>
+          <li><a href="shop.html">Custom Tailoring</a></li>
+          <li><a href="shop.html">Festive Collection</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li>📍 Ahmedabad, Gujarat, India</li>
+          <li>📞 +91 XXXXX XXXXX</li>
+          <li>💬 WhatsApp Available</li>
+          <li>✉️ hello@rivaaje.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Rivaaje&#x2019;. All Rights Reserved.</p>
+      <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/brand-elements.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
